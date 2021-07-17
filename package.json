@@ -1,0 +1,27 @@
+{
+  "name": "postgraphile-flashcards",
+  "version": "1.0.0",
+  "description": "Flashcard application created by using postgraphile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eeki/postgraphile-flashcards.git"
+  },
+  "author": "eliel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eeki/postgraphile-flashcards/issues"
+  },
+  "homepage": "https://github.com/Eeki/postgraphile-flashcards#readme",
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "db-migrate": "^0.11.12",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^5.0.1",
+    "postgraphile": "^4.12.3",
+    "postgraphile-plugin-connection-filter": "^2.2.1"
+  }
+}
